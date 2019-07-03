@@ -1,0 +1,61 @@
+.main-container {
+    height: 100vh;
+    width: 100vw;
+}
+.nav {
+    display: flex;
+    height: 10vh;
+    width: 100vw;
+    background-color: black;
+    display: flex;
+    justify-content: space-around;
+}
+a, h2 {
+    color: white;
+}
+.bio-container {
+    height: 50vh;
+    width: 100vw;
+    margin: 1%;
+    background-color: rgb(87, 70, 70);
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.bio-image {
+    height: 40vh;
+    width: 30vw;
+    background-color: black;
+}
+.bio-text {
+    height: 40vh;
+    width: 50vw;
+    background-color: black;
+}
+.bio-image, p {
+    color: white;
+    padding: 5px;
+}
+.projects-container {
+    height: 50vh;
+    width: 100vw;
+    background-color: black;
+    margin: 1%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.projects {
+    height: 30vh;
+    width: 30vw;
+    background-color: rgb(87, 70, 70);
+}
+.links-container {
+    height: 50vh;
+    width: 100vw;
+    background-color: rgb(87, 70, 70);;
+    margin: 1%;   
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
